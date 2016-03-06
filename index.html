@@ -53,26 +53,35 @@ if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && lo
 
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-              <li><a class="opt1" href="#h1">Who Is Steve</a></li>
-              <li><a class="opt2" href="#h2">What Steve Did</a></li>
-              <li><a class="opt3" href="#h3">Thanking Steve</a></li>
+              <li><a class="nav-opt1 nav-opt" href="#part1">Who Is Steve</a></li>
+              <li><a class="nav-opt2 nav-opt" href="#part2">What Steve Did</a></li>
+              <li><a class="nav-opt3 nav-opt" href="#part3">Thanking Steve</a></li>
             </ul>
           </div>
         </div>
       </nav>
       <!-- Divided body sections -->
       <div class="container">
-        <div id="h1">
+        <div id="part1">
+          <!-- 16:9 aspect ratio -->
+          <div class="container col-xs-10 col-xs-offset-1 hid " id="video">
+            <div class="centered">
+              <div class="embed-responsive embed-responsive-16by9 ">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3G9Sotw4aAI"></iframe>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
 
       <div class="container">
-        <div id="h2">
+        <div id="part2">
         </div>
       </div>
 
       <div class="container">
-        <div id="h3">
+        <div id="part3">
         </div>
       </div>
    </div>
